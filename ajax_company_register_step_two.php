@@ -22,9 +22,9 @@ if(isset($_POST['submit'])) {
 	    $mail->Host = "smtp.gmail.com";
 	    $mail->Port = 465; // or 587
 	    $mail->IsHTML(true);
-	    $mail->Username = "luckyme.luckyyes@gmail.com";
-	    $mail->Password = "8866907056";
-	    $mail->SetFrom("luckyme.luckyyes@gmail.com");
+	    $mail->Username = "abc@gmail.com";
+	    $mail->Password = "12345678";
+	    $mail->SetFrom("abc@gmail.com");
 	    $mail->Subject = "Test";
 	    $mail->Body = "You have submitted your employer account request. We will be touch once it is reviewed, which may take up to 24 hours.";
 	    $mail->AddAddress($user);
@@ -47,9 +47,9 @@ if(isset($_POST['submit'])) {
 	    $mail->Host = "smtp.gmail.com";
 	    $mail->Port = 465; // or 587
 	    $mail->IsHTML(true);
-	    $mail->Username = "luckyme.luckyyes@gmail.com";
-	    $mail->Password = "8866907056";
-	    $mail->SetFrom("luckyme.luckyyes@gmail.com");
+	    $mail->Username = "abc@gmail.com";
+	    $mail->Password = "12345678";
+	    $mail->SetFrom("abc@gmail.com");
 	    $mail->Subject = "New company registration request.(Company: ".$com.")";
 	    $mail->Body = "Hello Admin, New company ".$com." has submited request for new account. Please review.";
 	    $mail->AddAddress("yashwant@hexinor.com");
